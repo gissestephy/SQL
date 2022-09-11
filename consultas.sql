@@ -103,10 +103,6 @@ select*from world.city WHERE city.name LIKE 'A%%';
 select*from world.city WHERE city.name LIKE '%%A';
 select*from world.city WHERE city.name LIKE 'A%%' and city.name LIKE '%%A';
 
-/*Union de Tablas. INNER JOIN*/
-/*26. Listar los nombres de los países sudamericanos junto a los nombres (alias 'Capital') de sus capitales. 
-(Se esperan 2 columnas y 14 registros).*/
-
 
 
 
